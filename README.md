@@ -17,6 +17,6 @@ MAIL
 
 DADI
 ===
-1. con for creiamo un ciclo da 1 a 6 per generare il lancio dei dadi per l'utente
-2. con for creiamo un ciclo da 1 a 6 per generare il lancio dei dadi per il computer
+1. con il randomizer estraimao un numero da 1 a 6 per generare il lancio dei dadi per l'utente
+2. con il randomizer estraimao un numero da 1 a 6 per generare il lancio dei dadi per il computer
 3. con un if capiamo chi è il vincitore del confronto
