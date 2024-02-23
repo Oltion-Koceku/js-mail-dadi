@@ -13,6 +13,8 @@ for(i = 0; i < emailRegistrate.length; i++){
     document.querySelector("h1").innerHTML +=`
     Sei registrato
     `
+  }else{
+    console.log("non corretta");
   }
   
 }
