@@ -15,8 +15,11 @@ for(i = 0; i < emailRegistrate.length; i++){
     `
   }else{
     console.log("non corretta");
+    document.querySelector("h1").innerHTML +=`
+    Non sei registrato
+    `
   }
-  
+ 
 }
 // Dadi
 const bottone = document.querySelector(".btn");
