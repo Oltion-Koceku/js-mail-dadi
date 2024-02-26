@@ -11,7 +11,7 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 ## Svolgimento:
 MAIL
 ===
-1. creiamo un array a cui aggiungeremo un promt
+1. creiamo un prompt per l'email
 2. creiamo un array Con dentro le mail che possono accedere
 3. controlliamo se l'email dell'utente è valida
 

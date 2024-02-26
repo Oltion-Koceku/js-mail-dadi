@@ -3,24 +3,21 @@ const emailUtente = prompt("Scrivi la tua email.");
 const emailRegistrate = ["q@gmail.com", "w@gmail.com", "e@gmail.com", "r@gmail.com", "t@gmail.com", "y@gmail.com",] 
 
 console.log(emailUtente, emailRegistrate);
-
+let mailtrovata = false;
+let messaggio = "accesso negato ";
 for(i = 0; i < emailRegistrate.length; i++){
   const email = emailRegistrate[i];
   console.log(email);
 
   if(emailUtente === email){
     console.log("va bene ");
-    document.querySelector("h1").innerHTML +=`
-    Sei registrato
-    `
-  }else{
-    console.log("non corretta");
-    document.querySelector("h1").innerHTML +=`
-    Non sei registrato
-    `
+    mailtrovata = true;
   }
- 
 }
+if(mailtrovata){
+ messaggio = "email trovata"
+}
+document.querySelector("h1").innerHTML +=  messaggio
 // Dadi
 const bottone = document.querySelector(".btn");
 const reset = document.querySelector(".reset")
